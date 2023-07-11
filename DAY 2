@@ -1,0 +1,61 @@
+//program to print all numbers from 1 to 100
+public class Exercise5
+{
+    public static void main(String[] args)
+    {
+        for(int i = 1; i <= 100; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+//program to print alternate numbers from 1 to 99
+public class Exercie6  
+{  
+public static void main(String args[])   
+{  
+int number=100;  
+System.out.print("List of odd numbers from 1 to 99:\n ");  
+for (int i=1; i<=number; i++)   
+{  
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+}  
+}  
+}  
+}  
+//program to print alternate nlumbers  from 0 to 100
+public class Exercise7
+{  
+    public static void main(String args[])   
+    {  
+        int n=100;  
+        System.out.print("List of even numbers from 1 to 100: \n");  
+        for (int i=1; i<=n; i++)   
+        { 
+            if ( i%2 == 0 )
+            {
+                System.out.print(i + " ");
+            }
+        }
+    }  
+}
+//program to print backward numbers
+import java.util.Scanner;
+public class Exercise8
+{
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter The Starting Number : ");
+		int s =input.nextInt();
+		System.out.print("Enter The Ending Number : ");
+		int e =input.nextInt(); 
+		while(s>=e)
+		{
+			System.out.println(s);
+			s--;
+		}
+	}
+}

@@ -59,3 +59,13 @@ public class Exercise8
 		}
 	}
 }
+//program to print backward numbers by skipping 2 numbers
+public class Main
+{
+    public static void main(String[]args){
+        System.out.println("The numbers from one to hundred are:");
+        int n=100;
+        for( int i=n;i>=1;i=i-3){
+         System.out.print(i+" ");}    
+        }
+    }
